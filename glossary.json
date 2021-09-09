@@ -1,6 +1,8 @@
 {
     "title": "Sci-Fi Glossary",
     "sources": [
-        { "wiki": "git@github.com:dhh1128/scifi-terms.git" }
+        { "wiki": "git@github.com:dhh1128/scifi-terms.git" },
+        { "wiki": "git@github.com:trustoverip/ctwg-terms.git" },
+        { "wiki": "git@github.com:trustoverip/toip-general-terms.git" }
     ]
 }
