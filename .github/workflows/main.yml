@@ -30,7 +30,7 @@ jobs:
         
       - name: Set variables
         env:
-          DEFAULT_GLOSSARY_DEF_FILE: test
+          DEFAULT_GLOSSARY_DEF_FILE: glossary.json
           DEFAULT_DEPLOY_BRANCH: gh_pages
         run: |
           echo "GLOSSARY_DEF_FILE=${{ github.event.inputs.glossaryDefFile || env.DEFAULT_GLOSSARY_DEF_FILE }}" >> $GITHUB_ENV
