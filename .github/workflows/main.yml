@@ -9,9 +9,11 @@ on:
     inputs:
       glossaryDefFile:
         required: true
+        default: glossary.json
         description: glossaryDefFile
       deployBranch:
         required: false
+        default: gh_pages
         description: This is where the output of script will be pushed to.
 
 
